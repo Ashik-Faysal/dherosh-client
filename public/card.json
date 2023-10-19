@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "type": "AI",
+    "description": "Advancing intelligence through machine learning and data-driven algorithms.",
+    "imageFront": "https://i.ibb.co/CzncHrs/Advantages-and-Disadvantages-of.png"
+  },
+  {
+    "id": 2,
+    "type": "Mobile App Development",
+    "description": "Creating innovative mobile applications for diverse platforms and users.",
+    "imageFront": "https://i.ibb.co/D9JQ3Hn/phone-mobile-application-develop.png"
+  },
+  {
+    "id": 3,
+    "type": "Virtual Reality",
+    "description": "Immersive experiences in surreal landscapes using cutting-edge virtual reality.",
+    "imageFront": "https://i.ibb.co/NLmBfbn/vr-technology.png"
+  },
+  {
+    "id": 4,
+    "type": "Augmented Reality",
+    "description": "Overlaying digital content onto the real world, enhancing user experiences.",
+    "imageFront": "https://i.ibb.co/Fh6JsfY/amazon-rooom-decorator-hi-res.png"
+  },
+  {
+    "id": 5,
+    "type": "Cloud Computing",
+    "description": "Scalable, on-demand cloud resources for efficient data storage and processing.",
+    "imageFront": "https://i.ibb.co/GH1yVQv/cloud-computing-isometric-repres.png"
+  },
+  {
+    "id": 6,
+    "type": "Cybersecurity",
+    "description": "Protecting digital assets from threats with robust defense strategies.",
+    "imageFront": "https://i.ibb.co/2dszkx6/what-is-cybersecurity.png"
+  },
+  {
+    "id": 7,
+    "type": "Machine Learning",
+    "description": "Empowering systems to learn and make decisions from data patterns.",
+    "imageFront": "https://i.ibb.co/CQv31Wr/Deep-Learning-vs-Machine-Learnin.png"
+  },
+  {
+    "id": 8,
+    "type": "Blockchain",
+    "description": "Decentralized, secure ledger technology for transparent transactions and contracts.",
+    "imageFront": "https://i.ibb.co/KKGJmqK/Blockchain-Technology.png"
+  },
+  {
+    "id": 9,
+    "type": "Web Developer",
+    "description": "Crafting web solutions with coding, design, and user experience expertise.",
+    "imageFront": "https://i.ibb.co/wJC38Mq/web-development-coding-programmi.png"
+  },
+  {
+    "id": 10,
+    "type": "Video Editing",
+    "description": "Editing and enhancing video content for creative and professional projects.",
+    "imageFront": "https://i.ibb.co/6Bdv3Yj/Image-of-a-person-video-editing.png"
+  },
+  {
+    "id": 11,
+    "type": "Data Analytics",
+    "description": "Analyzing data to derive insights and make data-driven decisions.",
+    "imageFront": "https://i.ibb.co/sgwyvdK/Big-Data-Analyticsq.png"
+  },
+  {
+    "id": 12,
+    "type": "IoT (Internet of Things)",
+    "description": "Connecting physical devices to the internet for enhanced control and monitoring.",
+    "imageFront": "https://i.ibb.co/H7WfSnN/Iot.png"
+  },
+  {
+    "id": 13,
+    "type": "Robotics",
+    "description": "Designing and building robots for various applications and industries.",
+    "imageFront": "https://i.ibb.co/4MmzTrV/360-F-564702941-ixrc-UDCn-T3-Fz9-KAK.png"
+  },
+  {
+    "id": 14,
+    "type": "E-commerce Solutions",
+    "description": "Creating online shopping platforms and solutions for businesses.",
+    "imageFront": "https://i.ibb.co/rdGdH4d/1-Sw-FB1o-k1-LGpr-N-XRUZQ8w.png"
+  },
+  {
+    "id": 15,
+    "type": "Game Development",
+    "description": "Developing interactive and engaging video games for different platforms.",
+    "imageFront": "https://i.ibb.co/QrZ9ZRd/Learn-Game-Development-with-Onli.png"
+  },
+  {
+    "id": 16,
+    "type": "UI/UX Design",
+    "description": "Designing user interfaces and enhancing user experiences.",
+    "imageFront": "https://i.ibb.co/RCJx0x7/1-U4-Tabk-Cozgf-ZN1ioq-Fim7g.png"
+  },
+  {
+    "id": 17,
+    "type": "Mobile Game Development",
+    "description": "Creating mobile games that entertain and engage users.",
+    "imageFront": "https://i.ibb.co/HLZgbsw/Tips-For-an-Indie-Game-Developer.png"
+  },
+  {
+    "id": 18,
+    "type": "Data Science",
+    "description": "Using data analysis to extract valuable insights and knowledge.",
+    "imageFront": "https://i.ibb.co/njBnbV2/data-science-analytics-internet.png"
+  },
+  {
+    "id": 19,
+    "type": "App Testing and Quality Assurance",
+    "description": "Ensuring the quality and reliability of mobile applications.",
+    "imageFront": "https://i.ibb.co/9VVXF4Z/1684394816348.png"
+  },
+  {
+    "id": 20,
+    "type": "3D Modeling and Animation",
+    "description": "Creating 3D models and animations for various purposes.",
+    "imageFront": "https://i.ibb.co/f2x6dL3/png-transparent-3d-computer-grap.png"
+  },
+  {
+    "id": 21,
+    "type": "Cloud Security",
+    "description": "Protecting cloud-based systems and data from security threats.",
+    "imageFront": "https://i.ibb.co/zRR0mLk/cloud.png"
+  },
+  {
+    "id": 22,
+    "type": "DevOps",
+    "description": "Streamlining software development and IT operations for efficiency.",
+    "imageFront": "https://i.ibb.co/w6gkmSF/Top-reasons-to-learn-Dev-Ops.png"
+  },
+  {
+    "id": 23,
+    "type": "Digital Marketing",
+    "description": "Promoting products and services through digital channels and strategies.",
+    "imageFront": "https://i.ibb.co/qYDNwTS/ADVERTISING-DIGITAL-MARKETING-BR.png"
+  },
+  {
+    "id": 24,
+    "type": "UI/UX Research",
+    "description": "Conducting research to improve user interface and user experience design.",
+    "imageFront": "https://i.ibb.co/VCL0LGg/1a-Vc44-Bgk4-X-lw-IOi-Ec-Yi1w.png"
+  },
+  {
+    "id": 25,
+    "type": "Software Development",
+    "description": "Creating software applications to meet specific needs and requirements.",
+    "imageFront": "https://i.ibb.co/fnYDBSn/Career-in-Software-Development.png"
+  },
+  {
+    "id": 26,
+    "type": "Database Management",
+    "description": "Managing and optimizing databases for efficient data storage and retrieval.",
+    "imageFront": "https://i.ibb.co/T8nKmtH/key-value-databases-1024x687.png"
+  },
+  {
+    "id": 27,
+    "type": "Social Media Management",
+    "description": "Managing and enhancing a brand's presence on social media platforms.",
+    "imageFront": "https://i.ibb.co/n1HdpTt/shutterstock-173563757-e15934263.png"
+  },
+  {
+    "id": 28,
+    "type": "SEO (Search Engine Optimization)",
+    "description": "Optimizing websites to improve their visibility in search engine results.",
+    "imageFront": "https://i.ibb.co/zSCm5M5/1686306817464.png"
+  },
+  {
+    "id": 29,
+    "type": "Content Writing",
+    "description": "Creating written content for various online and offline purposes.",
+    "imageFront": "https://i.ibb.co/z7Wqk6k/scribe-writing.png"
+  },
+  {
+    "id": 30,
+    "type": "IT Consulting",
+    "description": "Providing expert advice and solutions for IT-related challenges.",
+    "imageFront": "https://i.ibb.co/bzG060H/A-Quick-Guide-About-Compliance-M.png"
+  }
+]

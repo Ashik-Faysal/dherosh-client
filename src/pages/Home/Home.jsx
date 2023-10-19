@@ -1,7 +1,14 @@
-import React from 'react';
+import React from "react";
+import TopSection from "../HomePage/TopSection";
+import CardSectionPage from "../HomePage/CardSectionPage";
 
 const Home = () => {
-    return <div className="md:py-4 px-2 sm:px-3 md:px-8">Tis is home page</div>;
+  return (
+    <>
+      <TopSection />{" "}
+      <CardSectionPage/>
+    </>
+  );
 };
 
 export default Home;

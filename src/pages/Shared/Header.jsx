@@ -24,9 +24,9 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-blue-900 md:py-4 px-2 sm:px-3 md:px-8 py-2 ">
+    <header className="bg-[#000080] md:py-4 px-2 sm:px-3 md:px-8 py-2 ">
       <div className="container mx-auto flex items-center justify-between">
-        <h1 className="text-2xl text-white font-semibold">Dherosh</h1>
+        <h1 className="text-2xl text-[#6F4E37] font-semibold">Dherosh</h1>
         <nav className="hidden md:flex space-x-4">
           <a href="#" className="text-gray-300 hover:text-white">
             Home
