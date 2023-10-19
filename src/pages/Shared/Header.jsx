@@ -28,18 +28,18 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         <h1 className="text-4xl text-[#6F4E37] font-bold">Dherosh</h1>
         <nav className="hidden md:flex space-x-4">
-          <a href="#" className="text-gray-300 hover:text-white">
+          <Link to="/" className="text-gray-300 hover:text-white">
             Home
-          </a>
-          <a href="#" className="text-gray-300 hover:text-white">
+          </Link>
+          <Link to="/services" className="text-gray-300 hover:text-white">
             Services
-          </a>
-          <a href="#" className="text-gray-300 hover:text-white">
+          </Link>
+          <Link to="/about" className="text-gray-300 hover:text-white">
             About Us
-          </a>
-          <a href="#" className="text-gray-300 hover:text-white">
+          </Link>
+          <Link to="/contact" className="text-gray-300 hover:text-white">
             Contact
-          </a>
+          </Link>
         </nav>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white">
@@ -79,16 +79,16 @@ const Header = () => {
         <nav className="md:hidden text-center py-4">
           <ul className="mt-4 space-y-2">
             <li>
-              <button className="btn-secondary">Home</button>
+              <Link to="/" className="btn-secondary">Home</Link>
             </li>
             <li>
-              <button className="btn-secondary">Services</button>
+              <Link to="/services" className="btn-secondary">Services</Link>
             </li>
             <li>
-              <button className="btn-secondary">About Us</button>
+              <Link to="/about" className="btn-secondary">About Us</Link>
             </li>
             <li>
-              <button className="btn-secondary">Contact</button>
+              <Link to="/contact" className="btn-secondary">Contact</Link>
             </li>
             <li>
               <input

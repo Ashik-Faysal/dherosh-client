@@ -28,7 +28,7 @@ const SuccessPage = () => {
         <h5 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
           For Business Success
         </h5>
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold my-2">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold my-2 text-[#6F4E37]">
           We collaborate with you & identify business needs
         </h1>
         <p className="text-xs sm:text-sm md:text-base lg:text-lg">
