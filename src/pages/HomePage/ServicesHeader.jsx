@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { BsToggleOff, BsToggleOn, BsBoxArrowUpRight } from "react-icons/bs";
 
-
 const ServicesHeader = () => {
   const [servicesData, setServicesData] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -22,9 +21,9 @@ const ServicesHeader = () => {
 
   const toggleAccordion = (itemId) => {
     if (itemId === openItem) {
-      setOpenItem(null); 
+      setOpenItem(null);
     } else {
-      setOpenItem(itemId); 
+      setOpenItem(itemId);
     }
   };
 
@@ -133,6 +132,7 @@ const ServicesHeader = () => {
                 </button>
               </div>
             </div>
+            <hr />
           </div>
         ))}
       </div>
