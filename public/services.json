@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "UI/UX Design",
+    "category": "Design",
+    "work": "Focus On Easy To Use UI Design",
+    "description": "Integer eget aliquet nibh praesent tristique magna. Dui accumsan sit amet nulla facilisi morbi. Vitae tortor condimentum lacinia quis vel. Dolor magna eget est lorem ipsum dolor facilisis sit.",
+    "image": "https://i.ibb.co/gdzpSz3/home-service-image-1-1024x388.png"
+  },
+  {
+    "id": 2,
+    "name": "Graphic Design",
+    "category": "Design",
+    "work": "We Do Logo Design To Print Design",
+    "description": "Tempor nec feugiat nisl pretium. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Consectetur purus ut faucibus pulvinar. Pharetra sit amet aliquam id diam maecenas ultricies mi. Risus.",
+    "image": "https://i.ibb.co/SNC335f/home-service-image-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Animation Design",
+    "category": "Design",
+    "work": "Animation Rendering Services",
+    "description": "Aliquam sem fringilla ut morbi tincidunt augue. Amet nisl suscipit adipiscing bibendum est ultricies. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Egestas dui id ornare arcu.",
+    "image": "https://i.ibb.co/9GPDs8B/home-service-image-3-1024x388.png"
+  },
+  {
+    "id": 4,
+    "name": "Front-End Dev",
+    "category": "Coding",
+    "work": "Innovative & Interaction Development",
+    "description": "Vel pharetra vel turpis nunc eget lorem dolor sed. Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Dictum non consectetur a erat. At varius vel pharetra vel turpis nunc eget.",
+    "image": "https://i.ibb.co/SfLfLv0/Hai-Servies-tab-img1-1024x388.png"
+  },
+  {
+    "id": 5,
+    "name": "Advertisement",
+    "category": "Development",
+    "work": "Most Prominent Advertising Solution",
+    "description": "Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Egestas dui id ornare arcu. Aliquam sem fringilla ut morbi tincidunt augue. Amet nisl suscipit adipiscing bibendum est ultricies.",
+    "image": "https://i.ibb.co/93yTLBC/home-service-image-4-1024x388.png"
+  },
+  {
+    "id": 6,
+    "name": "Marketing Strategy",
+    "category": "Digital Marketing",
+    "work": "Work 6",
+    "description": "Amet nisl suscipit adipiscing bibendum est ultricies. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Egestas dui id ornare arcu. Aliquam sem fringilla ut morbi tincidunt augue.",
+    "image": "https://i.ibb.co/MNJ9TCP/home-service-image-5-1024x388.png"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing",
+    "category": "Digital Marketing",
+    "work": "@X Faster Email Campangns",
+    "description": "Egestas dui id ornare arcu. Aliquam sem fringilla ut morbi tincidunt augue. Amet nisl suscipit adipiscing bibendum est ultricies. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.",
+    "image": "https://i.ibb.co/WGRxVCL/home-service-image-6-1024x388.png"
+  }
+]

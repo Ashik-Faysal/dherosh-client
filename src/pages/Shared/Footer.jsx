@@ -13,9 +13,9 @@ const Footer = () => {
     <footer className="bg-[#000080] px-2 sm:px-3 md:px-8 py-2 md:py-6">
       <div className="container mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="text-left">
-          <h2 className="text-4xl text-[#6F4E37] font-semibold">Dherosh</h2>
+          <h2 className="text-4xl text-[#6F4E37] font-bold">Dherosh</h2>
           <p className="text-gray-400 mt-2">
-            A short tagline about your brand.
+            Tech Innovators. We create software solutions that shape the future
           </p>
         </div>
         <div className="mt-6 md:mt-0">
