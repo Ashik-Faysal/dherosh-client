@@ -26,16 +26,17 @@ export const router = createBrowserRouter([
         element: <RegistrationPage />,
       },
       {
-        path: "services",
-        element:<ServicesPage/>
-      }, {
+        path: "services-sections",
+        element: <ServicesPage />,
+      },
+      {
         path: "about",
-        element:<AboutUsPage/>
+        element: <AboutUsPage />,
       },
       {
         path: "contact",
-        element:<ContactPage/>
-      }
+        element: <ContactPage />,
+      },
     ],
   },
 ]);
