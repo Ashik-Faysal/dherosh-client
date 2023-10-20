@@ -6,7 +6,7 @@ const ClientPage = () => {
   const [hoveredClient, setHoveredClient] = useState(null);
 
   useEffect(() => {
-    fetch("/clients.json")
+    fetch("https://dherosh-server.vercel.app/clients")
       .then((res) => res.json())
       .then((data) => setClients(data));
   }, []);

@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className="bg-black text-white  md:py-4  px-2 sm:px-3 md:px-8 py-2 ">
       <div className="container mx-auto flex items-center justify-between">
-        <h1 className="text-4xl text-dharosh font-bold">Dherosh</h1>
+        <Link to="/" className="text-4xl text-dharosh font-bold">Dherosh</Link>
         <nav className="hidden md:flex space-x-4">
           <Link to="/" className="btn-outline">
             Home

@@ -7,7 +7,7 @@ const CardSectionPage=()=> {
 
   useEffect(() => {
     // Load JSON data when the component mounts
-    fetch("card.json")
+    fetch("https://dherosh-server.vercel.app/cards")
       .then((response) => response.json())
       .then((data) => setCards(data))
       .catch((error) => console.error("Error loading JSON data: " + error));

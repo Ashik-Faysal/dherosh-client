@@ -9,7 +9,7 @@ const ServicesHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    fetch("/services.json")
+    fetch("https://dherosh-server.vercel.app/services")
       .then((res) => res.json())
       .then((data) => setServicesData(data));
   }, []);
