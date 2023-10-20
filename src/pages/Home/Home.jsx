@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { FaArrowUp } from "react-icons/fa"; // Import the up arrow icon
+import { FaArrowUp } from "react-icons/fa"; 
 import TopSection from "../HomePage/TopSection";
 import CardSectionPage from "../HomePage/CardSectionPage";
 import ServicesHeader from "../HomePage/ServicesHeader";
 import ClientPage from "../HomePage/ClientPage";
 import SuccessPage from "../HomePage/SuccessPage";
+
 
 const Home = () => {
   const [showButton, setShowButton] = useState(false);
@@ -28,12 +29,11 @@ const Home = () => {
 
   return (
     <div>
-      <TopSection />
-      <CardSectionPage />
-      <ServicesHeader />
-      <ClientPage />
-      <SuccessPage />
-
+        <TopSection />
+        <CardSectionPage />
+        <ServicesHeader />
+        <ClientPage />
+        <SuccessPage />
       {showButton && (
         <button
           className="fixed top-1/2 right-4 transform -translate-y-1/2 bg-blue-500 text-white p-1 rounded-md"

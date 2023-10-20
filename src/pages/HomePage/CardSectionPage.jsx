@@ -17,7 +17,7 @@ const CardSectionPage=()=> {
     <div>
       <div className="mx-auto text-center my-8 md:w-1/2">
         <h1 className="text-4xl my-2 uppercase font-bold">
-          We Understand your <span className="text-[#6F4E37]">business</span>
+          We Understand your <span className="text-dharosh">business</span>
         </h1>
 
         <p>

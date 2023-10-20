@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
       <Header />
-      <Outlet />
+        <Outlet/>
       <Footer />
     </>
   );

@@ -28,7 +28,7 @@ const SuccessPage = () => {
         <h5 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
           For Business Success
         </h5>
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold my-2 text-[#6F4E37]">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold my-2 text-dharosh">
           We collaborate with you & identify business needs
         </h1>
         <p className="text-xs sm:text-sm md:text-base lg:text-lg">
@@ -42,15 +42,15 @@ const SuccessPage = () => {
             Talk Now
             <FaArrowRight className="ml-2" />
           </button>
-          <button className="bg-transparent text-[#6F4E37]  border border-[#6F4E37] px-4 hover:text-white  hover:bg-black py-2 rounded-lg sm:ml-4 transition-transform transform hover:scale-105 w-1/2 mx-auto flex items-center">
+          <button className="bg-transparent text-dharosh border border-dharosh px-4 hover:text-white  hover:bg-black py-2 rounded-lg sm:ml-4 transition-transform transform hover:scale-105 w-1/2 mx-auto flex items-center">
             Follow Us
             <FaArrowRight className="ml-2" />
           </button>
         </div>
         <div>
           <h5 className="text-2xl mt-12 font-semibold">
-            <span className="text-[#6F4E37]">500+</span> Outstanding{" "}
-            <span className="text-[#6F4E37]">Companies</span> Trusted Us
+            <span className="text-dharosh">500+</span> Outstanding{" "}
+            <span className="text-dharosh">Companies</span> Trusted Us
             Globally
           </h5>
         </div>

@@ -1,36 +1,36 @@
 [
   {
-    "name": "John Doe",
+    "name": "Will Smith",
     "profession": "Web Developer",
-    "img1": "https://i.ibb.co/3Bxh6G2/zahid.jpg",
-    "img2": "https://i.ibb.co/bz0bpr1/akash.jpg",
+    "img1": "https://i.ibb.co/gw1L2KN/2722a57fc294-will-smith1.png",
+    "img2": "https://i.ibb.co/HPzJcmW/Will-Smith-new-headshot-credit-L.png",
     "facebookLink": "https://www.facebook.com/johndoe",
     "instagramLink": "https://www.instagram.com/johndoe",
     "linkedinLink": "https://www.linkedin.com/in/johndoe"
   },
   {
-    "name": "Jane Smith",
+    "name": "Shailene Woodley",
     "profession": "Graphic Designer",
-    "img1": "https://i.ibb.co/bz0bpr1/akash.jpg",
-    "img2": "https://i.ibb.co/3Bxh6G2/zahid.jpg",
+    "img1": "https://i.ibb.co/MhPKSLC/shailene-woodley-getty-images-51.png",
+    "img2": "https://i.ibb.co/3s4SF7B/360.png",
     "facebookLink": "https://www.facebook.com/janesmith",
     "instagramLink": "https://www.instagram.com/janesmith",
     "linkedinLink": "https://www.linkedin.com/in/janesmith"
   },
   {
-    "name": "David Johnson",
+    "name": "Jackie chan",
     "profession": "Photographer",
-    "img1": "https://i.ibb.co/gMsjMHk/sojib.jpg",
-    "img2": "https://i.ibb.co/0yw3cmm/habibullah.jpg",
+    "img1": "https://i.ibb.co/pK4rLBC/f0d524d8f8cf6edbfc1139ccced8adc8.png",
+    "img2": "https://i.ibb.co/0Fz9LyT/jckie24.png",
     "facebookLink": "https://www.facebook.com/davidjohnson",
     "instagramLink": "https://www.instagram.com/davidjohnson",
     "linkedinLink": "https://www.linkedin.com/in/davidjohnson"
   },
   {
-    "name": "Emily Wilson",
+    "name": "Selena Gomez",
     "profession": "Marketing Specialist",
-    "img1": "https://i.ibb.co/0yw3cmm/habibullah.jpg",
-    "img2": "https://i.ibb.co/gMsjMHk/sojib.jpg",
+    "img1": "https://i.ibb.co/7gLTP2m/selena-gomez-net-worth.png",
+    "img2": "https://i.ibb.co/zs15qsv/Getty-Images-1198930383-1536x1073.png",
     "facebookLink": "https://www.facebook.com/emilywilson",
     "instagramLink": "https://www.instagram.com/emilywilson",
     "linkedinLink": "https://www.linkedin.com/in/emilywilson"

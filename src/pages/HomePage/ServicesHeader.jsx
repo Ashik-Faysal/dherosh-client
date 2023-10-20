@@ -33,7 +33,7 @@ const ServicesHeader = () => {
         <div className="my-4">
           <h4 className="text-xl">Best & User-Friendly</h4>
           <h1 className="text-4xl font-bold pt-2 pb-6">
-            OUR &nbsp;<span className="text-[#6F4E37]">SERVICES</span>
+            OUR &nbsp;<span className="text-dharosh">SERVICES</span>
           </h1>
           <p>
             Molestie nunc non blandit massa enim nec dui nunc mattis. Aliquet
@@ -100,7 +100,7 @@ const ServicesHeader = () => {
                py-6 px-4 cursor-pointer flex justify-between "
               onClick={() => toggleAccordion(service.id)}
             >
-              <h2 className="text-xl font-semibold hover:text-[#6F4E37]">
+              <h2 className="text-xl font-semibold hover:text-amber-700">
                 {service.name}
               </h2>
               <span className="accordion-icon text-blue-600">
@@ -118,12 +118,13 @@ const ServicesHeader = () => {
               id={service.id}
             >
               <img
+                loading="lazy"
                 src={service.image}
                 alt={service.name}
                 className="mt-4 rounded-full"
               />
               <div className="w-4/5 mx-auto">
-                <p className="text-3xl mb-2 text-[#6F4E37] font-bold">
+                <p className="text-3xl mb-2 text-dharosh font-bold">
                   {service.work}
                 </p>
                 <p className="">{service.description}</p>

@@ -26,18 +26,18 @@ const Header = () => {
   return (
     <header className="bg-black text-white  md:py-4  px-2 sm:px-3 md:px-8 py-2 ">
       <div className="container mx-auto flex items-center justify-between">
-        <h1 className="text-4xl text-[#6F4E37] font-bold">Dherosh</h1>
+        <h1 className="text-4xl text-dharosh font-bold">Dherosh</h1>
         <nav className="hidden md:flex space-x-4">
-          <Link to="/" className="text-gray-300 hover:text-white">
+          <Link to="/" className="btn-outline">
             Home
           </Link>
-          <Link to="/services" className="text-gray-300 hover:text-white">
+          <Link to="/services" className="btn-outline">
             Services
           </Link>
-          <Link to="/about" className="text-gray-300 hover:text-white">
+          <Link to="/about" className="btn-outline">
             About Us
           </Link>
-          <Link to="/contact" className="text-gray-300 hover:text-white">
+          <Link to="/contact" className="btn-outline">
             Contact
           </Link>
         </nav>
@@ -57,7 +57,8 @@ const Header = () => {
               <img
                 className="w-8 h-8 rounded-full"
                 src={user.photoURL}
-                alt=""
+                alt={user.name}
+                loading="lazy"
               />
               <button
                 onClick={handleLogOut}
@@ -79,22 +80,30 @@ const Header = () => {
         <nav className="md:hidden text-center py-4">
           <ul className="mt-4 space-y-2">
             <li>
-              <Link to="/" className="btn-secondary">Home</Link>
+              <Link to="/">
+                <button className="w-full btn-outline">Home</button>
+              </Link>
             </li>
             <li>
-              <Link to="/services" className="btn-secondary">Services</Link>
+              <Link to="/services">
+                <button className="w-full btn-outline">Services</button>
+              </Link>
             </li>
             <li>
-              <Link to="/about" className="btn-secondary">About Us</Link>
+              <Link to="/about">
+                <button className="w-full btn-outline">About Us</button>
+              </Link>
             </li>
             <li>
-              <Link to="/contact" className="btn-secondary">Contact</Link>
+              <Link to="/contact">
+                <button className="w-full btn-outline">Contact</button>
+              </Link>
             </li>
             <li>
               <input
                 type="text"
                 placeholder="Search"
-                className="w-3/4 bg-gray-200 text-black rounded p-2"
+                className="w-full bg-gray-200 text-black rounded p-2"
               />
             </li>
             <li>

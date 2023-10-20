@@ -24,7 +24,7 @@ const ClientPage = () => {
       <div className="text-center">
         <h4 className="text-xl font-bold">Partnership</h4>
         <h1 className="text-4xl font-bold uppercase">
-          Our Client <span className="text-[#6F4E37]">Partners</span>
+          Our Client <span className="text-dharosh">Partners</span>
         </h1>
       </div>
       <div className="flex flex-wrap my-8 justify-center">
@@ -41,6 +41,7 @@ const ClientPage = () => {
                   <img
                     src={client.img2}
                     alt={client.name}
+                    loading="lazy"
                     className="w-80 h-80 object-cover"
                   />
                   <div className="absolute top-0 left-0 w-full bg-opacity-80 p-2 text-white">

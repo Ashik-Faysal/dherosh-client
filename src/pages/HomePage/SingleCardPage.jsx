@@ -19,7 +19,12 @@ const SingleCardPage = ({ card }) => {
       onMouseLeave={handleUnhover}
       className={`relative overflow-hidden border shadow-md transition-transform transform hover:scale-105 cursor-pointer`}
     >
-      <img src={imageFront} alt={type} className="w-96 h-48 object-cover" />
+      <img
+        src={imageFront}
+        alt={type}
+        loading="lazy"
+        className="w-96 h-48 object-cover"
+      />
       <div
         className={`p-4 ${
           isHovered
@@ -29,7 +34,7 @@ const SingleCardPage = ({ card }) => {
       >
         <Slide>
           <h2 className="text-lg font-semibold mb-2">{type}</h2>
-          <p >{description}</p>
+          <p>{description}</p>
         </Slide>
       </div>
     </div>
