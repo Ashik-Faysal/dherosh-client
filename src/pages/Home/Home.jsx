@@ -5,6 +5,7 @@ import CardSectionPage from "../HomePage/CardSectionPage";
 import ServicesHeader from "../HomePage/ServicesHeader";
 import ClientPage from "../HomePage/ClientPage";
 import SuccessPage from "../HomePage/SuccessPage";
+import AskedQuestion from "../HomePage/AskedQuestion";
 
 
 const Home = () => {
@@ -33,7 +34,8 @@ const Home = () => {
         <CardSectionPage />
         <ServicesHeader />
         <ClientPage />
-        <SuccessPage />
+      <SuccessPage />
+      <AskedQuestion/>
       {showButton && (
         <button
           className="fixed top-1/2 right-4 transform -translate-y-1/2 bg-blue-500 text-white p-1 rounded-md"

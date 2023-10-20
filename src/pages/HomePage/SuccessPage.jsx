@@ -37,7 +37,7 @@ const SuccessPage = () => {
           phasellus egestas tellus. Pha egestas tellus rutrum tellus pellente
           tortor.
         </p>
-        <div className="grid grid-cols-2 gap-2 items-center mt-4">
+        <div className="grid md:grid-cols-2 gap-2 items-center mt-4">
           <button className="bg-[#6F4E37] text-white hover:bg-[#855f45] px-4 py-2 rounded-lg mb-4 sm:mb-0 sm:mr-4 transition-transform transform hover:scale-105 flex items-center w-1/2 mx-auto">
             Talk Now
             <FaArrowRight className="ml-2" />
@@ -55,7 +55,7 @@ const SuccessPage = () => {
           </h5>
         </div>
       </div>
-      <div className="w-1/2 text-white p-4 my-8">
+      <div className="w-full md:w-2/3 text-white p-4 my-8">
         <marquee
           className="text-xl"
           scrollamount="4"
