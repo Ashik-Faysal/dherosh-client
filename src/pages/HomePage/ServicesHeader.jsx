@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { AiOutlineMenu } from "react-icons/ai";
+import { FaRegEyeSlash } from "react-icons/fa";
+import { AiFillCaretDown } from "react-icons/ai";
 import { BsToggleOff, BsToggleOn, BsBoxArrowUpRight } from "react-icons/bs";
 
 const ServicesHeader = () => {
   const [servicesData, setServicesData] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     fetch("/services.json")
@@ -12,7 +14,7 @@ const ServicesHeader = () => {
       .then((data) => setServicesData(data));
   }, []);
 
-  const [openItem, setOpenItem] = useState(1); // Set the initial open item to 1
+  const [openItem, setOpenItem] = useState(1);
 
   const filteredServices =
     selectedCategory === "All"
@@ -27,8 +29,12 @@ const ServicesHeader = () => {
     }
   };
 
+  const openMobile = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <div className=" bg-[#222327]  text-white px-2 md:px-4">
+    <div className="bg-[#222327] text-white px-2 md:px-4">
       <div className="grid md:grid-cols-2">
         <div className="my-4">
           <h4 className="text-xl">Best & User-Friendly</h4>
@@ -42,9 +48,52 @@ const ServicesHeader = () => {
           </p>
         </div>
         <div className="md:hidden">
-          <div onClick={() => setSelectedCategory("All")}>
-            <AiOutlineMenu className="text-2xl" />
-          </div>
+          <button className="w-full mx-auto h-8 rounded-3xl my-2  bg-gray-500 shadow-lg transform transition hover:scale-105 hover:shadow-xl">
+            <button onClick={openMobile} className="text-white">
+              {isMenuOpen ? (
+                <FaRegEyeSlash size={24} />
+              ) : (
+                <AiFillCaretDown size={24} />
+              )}
+            </button>
+          </button>
+
+          {isMenuOpen && (
+            <div className="md:hidden mx-2 ">
+              <button
+                onClick={() => setSelectedCategory("Design")}
+                className={`btn-outline w-full ${
+                  selectedCategory === "Design" && "bg-blue-700"
+                }`}
+              >
+                Design
+              </button>
+              <button
+                onClick={() => setSelectedCategory("Coding")}
+                className={`btn-outline w-full ${
+                  selectedCategory === "Coding" && "bg-blue-700"
+                }`}
+              >
+                Coding
+              </button>
+              <button
+                onClick={() => setSelectedCategory("Development")}
+                className={`btn-outline w-full ${
+                  selectedCategory === "Development" && "bg-blue-700"
+                }`}
+              >
+                Development
+              </button>
+              <button
+                onClick={() => setSelectedCategory("Digital Marketing")}
+                className={`btn-outline w-full ${
+                  selectedCategory === "Digital Marketing" && "bg-blue-700"
+                }`}
+              >
+                Digital Marketing
+              </button>
+            </div>
+          )}
         </div>
         <div className="hidden md:flex md:space-x-2 md:items-center md:justify-center flex-wrap">
           <button
@@ -96,11 +145,11 @@ const ServicesHeader = () => {
             className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-500 hover:scale-105"
           >
             <div
-              className="accordion-header bg-black from-stone-600  via-stone-400 to-stone-200
+              className="accordion-header bg-black from-stone-600 via-stone-400 to-stone-200
                py-6 px-4 cursor-pointer flex justify-between "
               onClick={() => toggleAccordion(service.id)}
             >
-              <h2 className="text-xl font-semibold hover:text-amber-700">
+              <h2 className="text-xl font-semibold hover-text-amber-700">
                 {service.name}
               </h2>
               <span className="accordion-icon text-blue-600">
@@ -128,7 +177,7 @@ const ServicesHeader = () => {
                   {service.work}
                 </p>
                 <p className="">{service.description}</p>
-                <button className="bg-blue-500 text-white px-4 py-2 rounded-lg flex items-center my-4 space-x-2 hover:bg-blue-600 transition duration-300">
+                <button className="bg-blue-500 text-white px-4 py-2 rounded-lg flex items-center my-4 space-x-2 hover-bg-blue-600 transition duration-300">
                   <span className="mr-2">View More</span> <BsBoxArrowUpRight />
                 </button>
               </div>

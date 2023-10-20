@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { FaBars, FaTimes, FaSearch } from "react-icons/fa";
+import { FaBars,FaRegEyeSlash, FaTimes, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 const Header = () => {
@@ -43,7 +43,11 @@ const Header = () => {
         </nav>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white">
-            {isMenuOpen ? <FaTimes /> : <FaBars />}
+            {isMenuOpen ? (
+              <FaRegEyeSlash size={24} />
+            ) : (
+              <FaBars size={24} />
+            )}
           </button>
         </div>
         <div className="hidden md:block">
