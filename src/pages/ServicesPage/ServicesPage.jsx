@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
+import ReactPaginate from "react-paginate";
 
 const ServicesPage = () => {
   const [services, setServices] = useState([]);
+  const [currentPage, setCurrentPage] = useState(0);
+  const servicesPerPage = 8; 
+
   useEffect(() => {
     fetch("/servicesSection.json")
       .then((response) => response.json())
@@ -9,31 +13,26 @@ const ServicesPage = () => {
       .catch((error) => console.log(error));
   }, []);
 
-  const itemsPerPage = 16;
-  const [currentPage, setCurrentPage] = useState(1);
-  const indexOfLastService = currentPage * itemsPerPage;
-  const indexOfFirstService = indexOfLastService - itemsPerPage;
-  const currentServices = services.slice(
-    indexOfFirstService,
-    indexOfLastService
-  );
+  const handlePageChange = ({ selected }) => {
+    setCurrentPage(selected);
+  };
 
-  const canGoNext = indexOfLastService < services.length;
-  const canGoPrev = currentPage > 1;
+  const offset = currentPage * servicesPerPage;
+  const paginatedServices = services.slice(offset, offset + servicesPerPage);
 
   return (
-    <div className="bg-gradient-to-b from-blue-400 to-purple-600 min-h-screen py-10">
+    <div className="bg-gradient-to-b from-violet-950 to-black min-h-screen py-10">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl text-center text-white font-bold mb-8">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center text-white font-bold mb-8">
           Our Services
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {currentServices.map((service, index) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8">
+          {paginatedServices.map((service, index) => (
             <div
               key={index}
-              className="group relative bg-white rounded-lg p-6 shadow-lg"
+              className="group relative bg-white rounded-lg p-6 shadow-lg hover:shadow-xl"
             >
-              <h2 className="text-2xl font-bold text-dharosh">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-dharosh">
                 {service.name}
               </h2>
               <p className="text-gray-600 mt-2">{service.description}</p>
@@ -44,22 +43,28 @@ const ServicesPage = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-6">
-          <button
-            onClick={() => setCurrentPage(currentPage - 1)}
-            disabled={!canGoPrev}
-            className="bg-blue-500 text-white py-2 px-4 rounded-md mr-2"
-          >
-            Previous
-          </button>
-          <button
-            onClick={() => setCurrentPage(currentPage + 1)}
-            disabled={!canGoNext}
-            className="bg-blue-500 text-white py-2 px-4 rounded-md"
-          >
-            Next
-          </button>
-        </div>
+
+        {/* Pagination */}
+        <ReactPaginate
+          previousLabel={"<"}
+          nextLabel={">"}
+          pageCount={Math.ceil(services.length / servicesPerPage)}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={3}
+          onPageChange={handlePageChange}
+          containerClassName="pagination flex justify-center flex-wrap gap-2 mt-4"
+          subContainerClassName="pages pagination"
+          activeClassName="active"
+          previousClassName={currentPage === 0 ? "disabled" : ""}
+          nextClassName={
+            currentPage === Math.ceil(services.length / servicesPerPage) - 1
+              ? "disabled"
+              : ""
+          }
+          previousLinkClassName="px-3 text-2xl py-2 rounded-lg bg-black text-white hover:bg-gray-800"
+          nextLinkClassName="px-3 py-2 text-2xl rounded-lg bg-black text-white hover:bg-gray-800"
+          pageLinkClassName="px-3 py-2 text-2xl rounded-lg bg-black text-white hover:bg-gray-800"
+        />
       </div>
     </div>
   );
