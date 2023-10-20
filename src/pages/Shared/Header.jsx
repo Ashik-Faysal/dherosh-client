@@ -26,12 +26,14 @@ const Header = () => {
   return (
     <header className="bg-black text-white  md:py-4  px-2 sm:px-3 md:px-8 py-2 ">
       <div className="container mx-auto flex items-center justify-between">
-        <Link to="/" className="text-4xl text-dharosh font-bold">Dherosh</Link>
+        <Link to="/" className="text-4xl text-dharosh font-bold">
+          Dherosh
+        </Link>
         <nav className="hidden md:flex space-x-4">
           <Link to="/" className="btn-outline">
             Home
           </Link>
-          <Link to="/services" className="btn-outline">
+          <Link to="/services-sections" className="btn-outline">
             Services
           </Link>
           <Link to="/about" className="btn-outline">
@@ -43,11 +45,7 @@ const Header = () => {
         </nav>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white">
-            {isMenuOpen ? (
-              <FaRegEyeSlash size={24} />
-            ) : (
-              <FaBars size={24} />
-            )}
+            {isMenuOpen ? <FaRegEyeSlash size={24} /> : <FaBars size={24} />}
           </button>
         </div>
         <div className="hidden md:block">
@@ -89,7 +87,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/services">
+              <Link to="/services-sections">
                 <button className="w-full btn-outline">Services</button>
               </Link>
             </li>
