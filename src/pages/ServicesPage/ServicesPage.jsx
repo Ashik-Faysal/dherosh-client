@@ -7,7 +7,7 @@ const ServicesPage = () => {
   const servicesPerPage = 8; 
 
   useEffect(() => {
-    fetch("https://dherosh-server.vercel.app/servicesSections.json")
+    fetch("https://dherosh-server.vercel.app/services-sections.json")
       .then((response) => response.json())
       .then((data) => setServices(data))
       .catch((error) => console.log(error));
