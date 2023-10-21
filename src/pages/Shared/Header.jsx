@@ -7,9 +7,7 @@ const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
     const handleLogOut = () => {
-      // setIsLoggedIn(false);
       logOut()
         .then(() => {})
         .then((error) => console.log(error));
