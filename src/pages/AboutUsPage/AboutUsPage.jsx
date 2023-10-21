@@ -6,7 +6,7 @@ const AboutUsPage = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto bg-white rounded-lg p-6 shadow-lg">
           <h1 className="text-3xl text-gray-800 font-semibold mb-4">
-            About Dherosh
+            About <span className="text-dharosh font-bold">Dherosh</span>
           </h1>
           <p className="text-gray-600 mb-4">
             Dherosh is a leading software company dedicated to delivering
