@@ -72,7 +72,7 @@ const SuccessPage = () => {
             backgroundSize: "100%",
             zIndex: -1,
             backgroundImage:
-              'url("https://i.ibb.co/1snj6GR/desktop-wallpaper-artificial-int.png")',
+              'url("https://i.ibb.co/Pj3VDC0/v2-PHONE-WALLPAPER-HD.png")',
           }}
         />
       )}
