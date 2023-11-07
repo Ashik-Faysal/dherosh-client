@@ -91,13 +91,13 @@ const Footer = () => {
         <div className="mt-6 md:mt-0">
           <h3 className="text-xl text-white font-semibold">Contact</h3>
           <p className="text-gray-400 mt-2">
-            123 Main St
+            Shaheb Bajer Boalia.
             <br />
-            City, State, ZIP
+            Rajshahi, Bangladesh, 6000
             <br />
-            Email: example@email.com
+            Email: ashikfaysal.rc@email.com
             <br />
-            Phone: (123) 456-7890
+            Phone: (+880) 1758777516
           </p>
         </div>
       </div>
